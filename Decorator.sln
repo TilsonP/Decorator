@@ -29,6 +29,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bridge", "Bridge", "{467D53
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainBridge", "DomainBridge\DomainBridge.csproj", "{995A876F-09C7-4D81-88DC-E3F0217F9119}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{03C2F59F-6E93-4EAF-9BEA-E2126E0B67BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainBuilder", "DomainBuilder\DomainBuilder.csproj", "{14FB4762-C8B8-4FB8-9386-CCF6582E36D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,10 @@ Global
 		{995A876F-09C7-4D81-88DC-E3F0217F9119}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{995A876F-09C7-4D81-88DC-E3F0217F9119}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{995A876F-09C7-4D81-88DC-E3F0217F9119}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14FB4762-C8B8-4FB8-9386-CCF6582E36D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14FB4762-C8B8-4FB8-9386-CCF6582E36D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14FB4762-C8B8-4FB8-9386-CCF6582E36D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14FB4762-C8B8-4FB8-9386-CCF6582E36D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -75,6 +83,7 @@ Global
 		{2CFBB5B0-9ED7-4C8D-AC6D-E19BCEAB5992} = {DA5D8162-2632-4BE8-BD3C-442D2A37FEF1}
 		{9BFFB48D-A242-42B3-8AB9-29DA802AC3B7} = {03E4FECD-139C-4F1D-A739-BAC1153DDE3C}
 		{995A876F-09C7-4D81-88DC-E3F0217F9119} = {467D53EA-D503-4C3E-AC9E-ECC827A8D3B2}
+		{14FB4762-C8B8-4FB8-9386-CCF6582E36D1} = {03C2F59F-6E93-4EAF-9BEA-E2126E0B67BB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A226534-1C5D-4E22-8425-81FC84BC39F9}
